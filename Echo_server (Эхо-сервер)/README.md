@@ -1,15 +1,17 @@
 Пункты с 1 по 7 реализованы в файлах client.py и server.py
 2 пункт. Клиент вводит exit и разрывает соединение
 
-![image](https://user-images.githubusercontent.com/58771506/135522962-6e35f0a1-930d-4c8c-824f-cebdc533c5c9.png)
+![Screenshot_1](https://user-images.githubusercontent.com/90453727/138608410-2b14a3c9-625f-4c31-8511-17f528f369cf.jpg)
+
 
 3 пункт. Сервер продолжает слушать и можно подключиться повторно. Два клиента подключились и разорвали соединение
 
-![image](https://user-images.githubusercontent.com/58771506/135523398-2f5d4660-0d15-47c7-a8c2-89aec650d32a.png)
+![Screenshot_2](https://user-images.githubusercontent.com/90453727/138608447-e58dcdce-95de-4386-8fb8-3b9d991b7e95.png)
+
 
 4 пункт. номер порта и имя хоста (для клиента) спрашивается у пользователя. Безопасный ввод данных реализован модулем getpass и значения по умолчанию при пустом вводе.
 
-![image](https://user-images.githubusercontent.com/58771506/135524586-038bb411-beaa-4819-a2c7-101ba040a8a3.png)
+![Screenshot_3](https://user-images.githubusercontent.com/90453727/138608471-a5001c36-d706-43d6-bc52-d868e533575e.jpg)
 
 ![image](https://user-images.githubusercontent.com/58771506/135524849-c58d52aa-2c17-45d4-84fe-10e619fb3f35.png)
 
@@ -29,19 +31,20 @@
 
 ![image](https://user-images.githubusercontent.com/58771506/135526072-9d65b91e-d8ef-47b1-baf0-ed9e407df624.png)
 
-![image](https://user-images.githubusercontent.com/58771506/135526352-d7ac508b-bb00-4aba-94b7-16fc7bd59016.png)
+![Screenshot_4](https://user-images.githubusercontent.com/90453727/138608509-ac8dbc28-7979-412c-885e-15013bfd0058.png)
+
 
 7 пункт. Сервер идентификации. Запросили у пользователя имя
 
-![image](https://user-images.githubusercontent.com/58771506/135527526-f94e9c38-a212-4c24-a55a-27629b0fa9bb.png)
+![Screenshot_5](https://user-images.githubusercontent.com/90453727/138608522-03f5b152-ab5f-4b1e-b4db-cca168237f61.jpg)
 
 Записали имя пользователя и IP в файл
 
-![image](https://user-images.githubusercontent.com/58771506/135527626-ef497bb6-f76c-47c5-9490-9d4e066e8fbd.png)
+![Screenshot_1](https://user-images.githubusercontent.com/90453727/138608601-4a4709e9-77cc-4481-afd0-a1e50ce1d688.png)
 
 Теперь при повторном подключении сервер нас поприветствует
 
-![image](https://user-images.githubusercontent.com/58771506/135527864-72390b36-7287-4143-8e7c-cf403f082c88.png)
+![Screenshot_3](https://user-images.githubusercontent.com/90453727/138608640-65ad076c-59b7-4281-9c1f-b1d77f22e3c4.jpg)
 
 
 Пункты с 8 по 10 реализованы в файлах client.py и server.py
@@ -49,7 +52,7 @@
 8 пункт. Реализовать сервер аутентификации. Похоже на предыдущее задание, но вместе с именем пользователя сервер отслеживает и проверяет пароли. Дополнительные баллы за безопасное хранение паролей. Дополнительные баллы за поддержание сессии на основе токена наподобие cookies
 При первом подключении сревер попросил придумать пароль, далее он сохранил пароль и уже предложил авторизоваться, после авторизации. Пароли в файлах хранятся в хешированном виде с ипользованием алгоритма шифрования md5. При авторизации сервер отправляет клиенту токен, который действует одну сессию, при отправке сообщения клиентом, к нему добавляется токен, сервер проверяет верен ли токен, если токен верен, сервер обрабатывает сообщение. информация о логине/пароле сохраняется в зашифрованном виде в csv файл
 
-![image](https://user-images.githubusercontent.com/58771506/135528732-f6243c2d-335f-4d0b-83bf-5ab610a30d75.png)
+![Screenshot_4](https://user-images.githubusercontent.com/90453727/138608657-871aa21c-ddd5-4be4-b470-949e306d9aee.png)
 
 ![image](https://user-images.githubusercontent.com/58771506/135529225-501547ed-91c8-4c6e-91fc-8d85c47480d1.png)
 
@@ -71,9 +74,7 @@
 10 пункт. Дополните код клиента и сервера таким образом, чтобы они могли посылать друг другу множественные сообщения один в ответ на другое.
 Как видим сервер и клиент могут переписываться последовательно. Слева сообщения сервера, справа клиента.
 
-![image](https://user-images.githubusercontent.com/58771506/135530364-bb38469b-f60c-47a9-9ff9-9bb89102d807.png)
+![Screenshot_7](https://user-images.githubusercontent.com/90453727/138608675-7f79392a-3c64-4297-b05e-62e32bf05db1.png)
+
 
 Если клиент отсоединится сервер будет ждать новое подключение.
-
-![image](https://user-images.githubusercontent.com/58771506/135530585-05f45748-e6c0-4a33-982d-3b473533f78e.png)
-
