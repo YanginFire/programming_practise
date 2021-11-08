@@ -1,6 +1,10 @@
 При создании файлового менеджера, отдельно был создан конфигурационный файл (файл с настройками пути) - config.py
 ![image](https://user-images.githubusercontent.com/90453727/140779705-29be51fb-49fb-4930-a056-bbc1245f46af.png)
 
+Список команд при вызове help
+![image](https://user-images.githubusercontent.com/90453727/140780595-26b65fee-f0c1-4dd4-96b4-b02afd2f56cd.png)
+
+
 Ниже представлены команды файлового менеджера:
 
 show_directory - показывает рабочую папку
