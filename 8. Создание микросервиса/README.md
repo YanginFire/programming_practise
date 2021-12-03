@@ -19,6 +19,8 @@
 Информация по пользователям хранится в виде коллекций с помощью модуля pickle
 ![image](https://user-images.githubusercontent.com/90453727/144666899-b03f8426-9c1d-425b-884a-f634a138aee7.png)
 
+Проверка на существующего пользователя
+![image](https://user-images.githubusercontent.com/90453727/144667797-98666d19-fba9-4513-b4a2-57d03049b1de.png)
 
 
 Все данные принимаются и отдаются в формате .JSON
