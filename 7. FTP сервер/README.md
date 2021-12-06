@@ -1,4 +1,5 @@
-Основные задания:
+# Основные задания:
+
 Посмотреть содержимое папки; Верхнее окно - клиент, нижнее - сервер.
 ![image](https://user-images.githubusercontent.com/90453727/144823256-16c4cf36-eba5-4ca9-b6c6-30f382824bdd.png)
 ![image](https://user-images.githubusercontent.com/90453727/144823584-2628b869-051b-44c0-a7c6-1443411427cb.png)
